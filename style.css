@@ -1,0 +1,58 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Zen Antique', serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+} 
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width: 265px;
+    height:180px;
+    background: rgb(195, 191, 224);
+    margin :20px 0px 20px 55px; 
+    border:2px solid blue;
+    box-sizing: border-box;
+}
+.container ul li:hover{
+    opacity: 0.8;
+}
+
+.cardlettersmall{
+   
+    font-size: 27px;
+
+}
+.cardletterlarg{
+    font-weight: bold;
+    font-size: 25px;
+}
+.adjustimg{
+    height: auto;
+    width: 25%;
+    margin: 1rem;
+}
+.iconimg{
+    height: auto;
+    width: 20%;
+    margin: 1rem;
+
+}
